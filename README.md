@@ -13,14 +13,14 @@
 ### 运行环境
 
 ```
-Windows
+Windows / Linux / macOS
 
 JRE7+
 ```
 
 ### 如何开始
 
-[点我下载](https://github.com/59nice/Get52PojieFiles/files/3872462/Get52PojieFiles.zip)，下载完成后解压，双击run.bat即可开始，简单粗暴。
+[点我下载](https://github.com/59nice/Get52PojieFiles/files/3872462/Get52PojieFiles.zip)，下载完成后解压，双击run.bat或在命令行中java -jar Get52PojieFiles.jar即可开始，简单粗暴。
 
 ![img](./img/play.gif)
 

@@ -72,7 +72,7 @@ public class Main {
 					try {
 						Entry<String,String> entry = iter.next();
 						String downurl = "https://down.52pojie.cn" + strencode(entry.getValue());
-						String filepath = System.getProperty("user.dir") + "\\download" + entry.getKey().replace("/", "\\");
+						String filepath = System.getProperty("user.dir") + "/download" + entry.getKey();
 						FileUtils.copyURLToFile(new URL(downurl), new File(filepath));
 						System.out.println(entry.getKey() + "--100%");
 						iter.remove();
